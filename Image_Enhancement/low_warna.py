@@ -15,7 +15,7 @@ def low_pass_filter():
 
 def main_low_pass_color():
     
-    color_image = imageio.v2.imread('C://SMT_5//Pengolahan_Citra//images.jpg')
+    color_image = imageio.v2.imread('C://SMT_5//Pengolahan_Citra//Image_Enhancement//images.jpg')
 
     low_passed = np.zeros_like(color_image)
     for i in range(3): 
